@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>SVG</title>
+    </head>
+    <body>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1088 252"><defs><style>.cls-1{opacity:.7;}.cls-1,.cls-2,.cls-3{stroke:#000;stroke-miterlimit:10;}.cls-2{fill:#fff;}.cls-3{fill:#588966;}</style></defs><g id="background"><rect class="cls-3" x=".5" y=".5" width="1087" height="251" rx="47.35" ry="47.35"/></g><g id="button_1"><polygon class="cls-1" points="119.5 76.5 135.5 73.5 271.2 73.5 283.09 75 289.7 81 292.5 191.5 289.5 194.5 287.5 197.5 121.5 199.5 116.5 195.5 110.5 189.5 110.5 85.21 119.5 76.5"/><rect class="cls-2" x="135.5" y="159.5" width="136" height="21" rx="10.5" ry="10.5"/></g><g id="button_2"><polygon class="cls-1" points="452.5 76.5 468.5 73.5 604.2 73.5 616.09 75 622.7 81 625.5 191.5 622.5 194.5 620.5 197.5 454.5 199.5 449.5 195.5 443.5 189.5 443.5 85.21 452.5 76.5"/><rect class="cls-2" x="466.5" y="159.5" width="136" height="21" rx="10.5" ry="10.5"/></g><g id="button_3"><polygon class="cls-1" points="785.5 76.5 801.5 73.5 937.2 73.5 949.09 75 955.7 81 958.5 191.5 955.5 194.5 953.5 197.5 787.5 199.5 782.5 195.5 776.5 189.5 776.5 85.21 785.5 76.5"/><rect class="cls-2" x="799.5" y="159.5" width="136" height="21" rx="10.5" ry="10.5"/></g></svg>
+    <script> 
+        let but1 = document.getElementById("button_1");
+        let but2 = document.getElementById("button_2");
+        let but3 = document.getElementById("button_3");
+        let bg = document.getElementById("background")
+        but1.addEventListener("click", function() {
+            alert("Button 1 clicked");
+        });
+        but2.addEventListener("click", function() {
+            alert("Button 2 clicked");
+        });
+        but3.addEventListener("click", function() {
+            alert("Button 3 clicked");
+        });
+        bg.addEventListener("click", function() {
+            alert("You missed!");
+        });
+    </script>
+    </body>
+</html>
